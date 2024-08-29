@@ -1,0 +1,16 @@
+{
+  "name": "belligerent-hole-structure-t4j03",
+  "productName": "belligerent-hole-structure-t4j03",
+  "description": "My Electron application description",
+  "keywords": [],
+  "main": "./main.js",
+  "version": "1.0.0",
+  "author": "rahul.chandrasekaran",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "31.2.1"
+  }
+}

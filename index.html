@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Material Database</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Material Database</h1>
+    <label for="oem-select">Select OEM:</label>
+    <select id="oem-select">
+        <option value="">--Select OEM--</option>
+        <option value="Honda">Honda</option>
+        <option value="Tesla">Tesla</option>
+        <option value="GM">GM</option>
+        <option value="Subaru">Subaru</option>
+        <option value="Nissan">Nissan</option>
+        <option value="Chrysler">Chrysler</option>
+        <option value="Ford">Ford</option>
+        <option value="Toyota">Toyota</option>
+        <option value="Rivian">Rivian</option>
+    </select>
+    <br><br>
+    <label for="material-search">Search Material Code:</label>
+    <input type="text" id="material-search" placeholder="Enter material code">
+    <button id="search-button">Search</button>
+    <br><br>
+    <table id="material-table">
+        <thead>
+            <tr>
+                <th>OEM</th>
+                <th>Material Code</th>
+                <th>Min Tensile Strength (Mpa)</th>
+                <th>Material Description</th>
+                <th>Type</th>
+                <th>Coating</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Table rows will be inserted here -->
+        </tbody>
+    </table>
+    <script src="script.js"></script>
+</body>
+</html>
